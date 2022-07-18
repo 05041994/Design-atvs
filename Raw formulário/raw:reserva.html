@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>RAW: Reserva</title>
+
+    <style>
+        div{
+            text-align: center;
+            margin-top: 2em;
+        }
+        h1,address{
+           text-align: center; 
+        }
+        address{
+            margin-top: 2em;
+            margin-bottom: 2em;
+        }
+    </style>
+</head>
+<body>
+
+    <h1><img src="logo.png" alt="Essa é a foto da logo"></h1>
+
+    <h2>RESERVAS</h2>
+<hr>
+    <form>
+        <div>
+                <label for="login">Login</label>
+                <input type="text" id="login" />
+        </div>
+        <div>
+            <label for="email">Email</label>
+            <input type="email" id="email"/>
+        </div>
+        <div>
+            <label for="data">Data para reserva:</label>
+            <input type="date" id="data" />
+        </div>
+        <div>
+            <label for="hora">Hora para reserva:</label>
+            <input type="time" id="hora" />
+        </div>
+        <div>
+            <label for="numero">Numeros de pessoas:</label>
+                <select id="numeros de pessoas">
+                    <option value="1">Uma pessoa</option>
+                    <option value="2-4">Duas pessoas ate quatro</option>
+                    <option value="4-6">Quatro pesssoas ate seis</option>
+                    <option value="6+">Mais de seis</option>
+                </select>    
+        <div>
+            <label for="motivacao">Motivo:</label>
+            <textarea id="motivo"></textarea>
+        </div>
+        <div> 
+            <input type="submit" value="Enviar">
+        </div>
+    </form>
+
+<hr>
+
+    <address>Rua Olinto Meira, 379, Cidade Alta</address>
+
+</body>
+</html>

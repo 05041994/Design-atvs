@@ -5,9 +5,49 @@
 }
 footer{
     background-color: black;
+    display: flex;
+    align-items: center;
+    padding: 10px;
 }
-footer section figure{
+main section div{
     display: flex;
     flex-wrap: wrap;
     align-content: flex-end;
+    border: 1px solid black;
 }
+header{
+    background-color: black;
+    align-items: flex-end;
+}
+header a{
+    color: white;
+    text-decoration: none;
+    width: 2px;
+}
+header h1{
+    font-size: 40px;
+}
+header {
+    padding: 2em;
+}
+header li{
+    display: inline-block;
+    width: 6em;
+}
+nav{
+    text-align: center;
+
+}
+header div{
+    text-align: right;
+}
+footer ul li{
+    display: inline-block;
+    width: 5em;
+}
+footer ul li a{
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
+

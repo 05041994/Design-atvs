@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+}
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;   
+    /* A largura de cada tabela */
+    gap: 1em;
+    grid-template-rows: 20em 20em 20em;
+    grid-template-areas:
+    "nav a b b c"
+    "nav d e f g"
+    "nav h e i i";
+}
+main section{
+    border: 1px solid black;
+    background-color: aquamarine;
+    padding: 2em;
+
+}
+main nav{
+    grid-area: nav;
+    background-color: #7292A6;
+    text-decoration: none;
+}
+main nav ul{
+    text-decoration: none;
+    font-size: 4em;
+}
+main nav li{
+    margin: 30px;
+}
+.a{ 
+    grid-area: a;
+    font-size: 1.5em;
+
+}
+
+.b{ 
+    grid-area: b;
+}
+.c{ 
+    grid-area: c;
+    background-image: url("./fotos/amanda.jpg");
+    background-size: cover;
+    filter: grayscale(100%);
+}
+.d{
+    grid-area: d;
+    font-size: 1.5em;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style-type: none;
+}
+.e{
+    grid-area: e;
+}
+.f{
+    grid-area: f;
+    background-image: url("./fotos/georgia.jpg");
+    background-size: cover;
+    filter: grayscale(100%);
+}
+.g{
+    grid-area: g;
+    background-image: url("./fotos/henrique.jpg");
+    background-size: cover;
+    filter: grayscale(100%);
+}
+.h{
+    grid-area: h;
+    background-image: url("./fotos/ellen.jpg");
+    background-size: cover;
+    filter: grayscale(100%);
+}
+.i{
+    grid-area: i;
+}
+header{
+    background: linear-gradient(to left,#7292A6, #224459 );
+    padding: 30px;
+    margin-bottom: 17px;
+}
+header, h1, h2{
+    color: white;
+}
+footer{
+    background-color: #254457;
+    padding: 50px;
+    margin-top: 17px;
+}
+footer p{
+    text-align: center;
+    color: white;
+}
+
+
+
+
